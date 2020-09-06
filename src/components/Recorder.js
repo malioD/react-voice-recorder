@@ -155,23 +155,9 @@ class Recorder extends Component {
       <div className={styles.recorder_library_box}>
         <div className={styles.recorder_box}>
           <div className={styles.recorder_box_inner}>
-            <div className={styles.reco_header}>
-              <h2 className={styles.h2}>{title}</h2>
-              <span className={styles.close_icons}>
-              <img src={closeIcons} width={20} height={20} alt="Close icons" />
-              </span>
-            </div>
             {!medianotFound ? (
               <div className={styles.record_section}>
                 <div className={styles.btn_wrapper}>
-                  <button
-                    onClick={() =>
-                      this.props.handleAudioUpload(this.state.audioBlob)
-                    }
-                    className={`${styles.btn} ${styles.upload_btn}`}
-                  >
-                    Upload
-                  </button>
                   <button
                     onClick={() => this.handleRest()}
                     className={`${styles.btn} ${styles.clear_btn}`}
