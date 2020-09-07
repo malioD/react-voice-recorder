@@ -69,15 +69,8 @@
   transform: translateX(-50%);
   bottom: 20px;
 }
-.recorder_library_box .record_section {
+.recorder_library_box .record_section .duration_section {
   position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  bottom: 100px;
-}
-.duration_section {
-  position: absolute;
-  margin-left:50px;
   left: 50%;
   transform: translate(-50%);
   bottom: 100px;
