@@ -166,7 +166,7 @@ class Recorder extends Component {
                   </button>
                 </div>
                 <div className={styles.duration_section}>
-                  <div className={styles.audio_section}>
+                  <div style={{marginLeft:"50px"}} className={styles.audio_section}>
                     {audioURL !== null && showUIAudio ? (
                       <audio controls>
                         <source src={audios[0]} type="audio/ogg" />
