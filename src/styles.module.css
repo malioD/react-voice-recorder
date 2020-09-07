@@ -114,6 +114,7 @@
 .recorder_library_box .duration * {
   color: #fff;
   font-size: 60px;
+  margin-left:50px;
 }
 .recorder_library_box .duration_section .help {
   color: #fff;
